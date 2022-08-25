@@ -3,7 +3,7 @@
 A collection of good and bad Ansible code examples.
 ## Contributing
 
-If you want to contribute you can create a merge request for a good or a bad Ansible code example. If you think you've found a bad practice, insert your code example in the "bad_practices" folder. For a good practice in the "good_practices" folder. After you've created the merge request, a bunch of people will get notified and will discuss the incoming changes in your merge request.
+If you want to contribute you can create a merge request so other colleagues will discuss the code with you. Make sure to add both, a good and a bad practice to your code example.
 
 Make sure that:
 - your code won't contain credentials
