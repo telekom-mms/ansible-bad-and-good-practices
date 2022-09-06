@@ -1,4 +1,4 @@
-# Name your tasks ands plays
+# Name your tasks and plays
 
 When writing tasks and plays in Ansible naming them is optional. However you should always give useful names to your tasks ands plays.
 
