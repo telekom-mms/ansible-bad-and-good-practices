@@ -27,7 +27,8 @@ Using native YAML has a few more lines but it reduces horizontal scrolling and l
 
 ```yaml
 - name: install telegraf
-  yum: telegraf-{{ telegraf_version }}
+  ansible.builtin.yum:
+    name: telegraf-{{ telegraf_version }}
     state: present
     update_cache: yes
     disable_gpg_check: yes
