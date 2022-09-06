@@ -17,7 +17,7 @@ Using the key=value shorthand format will limit the readability of your code:
   notify: restart telegraf
 
 - name: configure telegraf
-  template: src=telegraf.conf.j2 dest=/etc/telegraf/telegraf.conf
+  ansible.builtin.template: src=telegraf.conf.j2 dest=/etc/telegraf/telegraf.conf
   notify: restart telegraf
 ```
 
