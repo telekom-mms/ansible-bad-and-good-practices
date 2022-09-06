@@ -12,7 +12,7 @@ Using the key=value shorthand format will limit the readability of your code:
 
 ```yaml
 - name: install telegraf
-  yum:
+  ansible.builtin.yum:
     name: telegraf-{{ telegraf_version }} state=present update_cache=yes disable_gpg_check=yes enablerepo=telegraf
   notify: restart telegraf
 
