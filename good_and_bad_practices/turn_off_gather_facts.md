@@ -33,4 +33,4 @@ The collection of these facts is a time-consuming process and in order to speed 
         state: restarted
 ```
 
-Keep in mind that you need to enable gather_facts if you want to collect information about the remote host for example. A list about some of these Ansible facts can be found here: https://docs.ansible.com/ansible/latest/user_guide/playbooks_vars_facts.html#ansible-facts
+Keep in mind that you need to enable `gather_facts` if you want to use host-variables or want to collect information about the remote host. A list about some of these Ansible facts can be found here: https://docs.ansible.com/ansible/latest/user_guide/playbooks_vars_facts.html#ansible-facts
