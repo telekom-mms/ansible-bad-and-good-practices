@@ -1,7 +1,7 @@
 # Turn off gather_facts if you don't need it
 
 If you execute a playbook with ```yaml
-gather_facts: true ```, Ansible starts collecting facts (data from your node that is stored into variables). These details include variables from the remote host such as network configuration variables, hostnames and so on.
+gather_facts: true```, Ansible starts collecting facts (data from your node that is stored into variables). These details include variables from the remote host such as network configuration variables, hostnames and so on.
 
 The collection of these facts is a time-consuming process and in order to speed up the execution of the playbook you can turn gathering facts off.
 
