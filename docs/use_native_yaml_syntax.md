@@ -38,5 +38,5 @@ Using native YAML has a few more lines but it reduces horizontal scrolling and l
 - name: configure telegraf
   ansible.builtin.template:
     src: telegraf.conf.j2
-    dest: /etc/telegraf/teleg
+    dest: /etc/telegraf/telegraf
 ```

@@ -15,7 +15,7 @@ Ansible is batteries-included and comes with more than **6000** modules to help 
 ## Good
 
 ```
-- name: install htp
+- name: install htop
   hosts: all
   tasks:
     - name: install htop
