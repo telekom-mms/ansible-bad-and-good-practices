@@ -26,7 +26,7 @@ In the playbook you can delete databases based on the environment:
       - fms
   tasks:
     - name: Drop all backend databases
-      mysql_db:
+      community.mysql.mysql_db:
         login_user: mysqlroot
         login_password: "password"
         login_host: "mysqlserver"
@@ -35,7 +35,7 @@ In the playbook you can delete databases based on the environment:
       loop: "{{ db_list_backend | product(environments) }}"
 ```
 
-Then you would ne to call the playbook like this to only delete databases on the dev-environment:
+Then you would need to call the playbook like this to only delete databases on the dev-environment:
 
 ```yaml
 ansible-playbook playbook.yaml --extra-vars='{environments: [dev]}'
