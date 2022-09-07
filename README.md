@@ -6,6 +6,7 @@ A collection of good and bad Ansible code examples.
 * [Use Modules before run-commands](docs/use_modules_before_run_commands.md)
 * [Use native yaml syntax](docs/use_native_yaml_syntax.md)
 * [Use the copy- or template-module instead of lineinfile-module](docs/use_copy_template_instead_of_lineinfile.md)
+* [Avoid unintended side effects when running playbooks](docs/avoid-sideeffects.md)
 
 ## Contributing
 
@@ -14,4 +15,5 @@ If you want to contribute you can create a merge request so other colleagues wil
 Make sure that:
 - your code won't contain credentials
 - you've commented the code why it is a good or bad practice
+- your code can be easily run, so please add a full playbook if possible
 - be open to discuss with your colleagues
