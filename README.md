@@ -14,4 +14,5 @@ If you want to contribute you can create a merge request so other colleagues wil
 Make sure that:
 - your code won't contain credentials
 - you've commented the code why it is a good or bad practice
+- your code can be easily run, so please add a full playbook if possible
 - be open to discuss with your colleagues
