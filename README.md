@@ -2,10 +2,10 @@
 
 A collection of good and bad Ansible code examples.
 
-* [Name your tasks](good_and_bad_practices/name_your_tasks.md)
-* [Use Modules before run-commands](good_and_bad_practices/use_modules_before_run_commands.md)
-* [Use native yaml syntax](good_and_bad_practices/use_native_yaml_syntax.md)
-* [Use the copy- or template-module instead of lineinfile-module](good_and_bad_practices/use_copy_template_instead_of_lineinfile.md)
+* [Name your tasks](docs/name_your_tasks.md)
+* [Use Modules before run-commands](docs/use_modules_before_run_commands.md)
+* [Use native yaml syntax](docs/use_native_yaml_syntax.md)
+* [Use the copy- or template-module instead of lineinfile-module](docs/use_copy_template_instead_of_lineinfile.md)
 
 ## Contributing
 
