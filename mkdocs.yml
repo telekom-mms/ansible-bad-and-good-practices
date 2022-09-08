@@ -1,1 +1,4 @@
 site_name: Ansible - Good and Bad Practices
+docs_dir: docs/
+theme:
+  name: 'material'
