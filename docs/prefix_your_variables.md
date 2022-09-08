@@ -3,7 +3,7 @@
 You should prefix your with the name of the role (or playbook). This makes it easier to know where the variable is used.
 
 Here’s an example. Imagine you’re writing a role to install and configure the Apache web-server (you probably don’t have to). The role is named `apache`.
-Now you want to create a variable that configures the default Listen-port.
+Now you want to create a variable that configures the default listen-port.
 
 ## Bad
 
