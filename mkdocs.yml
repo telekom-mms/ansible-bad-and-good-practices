@@ -1,4 +1,4 @@
 site_name: Ansible - Good and Bad Practices
 site_url: https://T-Systems-MMS.github.io/ansible-bad-and-good-practices/
 theme:
-  name: readthedocs
+  name: material
