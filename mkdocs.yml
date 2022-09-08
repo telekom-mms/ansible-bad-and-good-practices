@@ -1,4 +1,6 @@
 site_name: Ansible - Good and Bad Practices
 docs_dir: docs/
+repo_name: 'T-Systems-MMS/ansible-bad-and-good-practices'
+repo_url: 'https://github.com/T-Systems-MMS/ansible-bad-and-good-practices'
 theme:
   name: 'material'
