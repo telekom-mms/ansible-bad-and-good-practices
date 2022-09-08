@@ -8,6 +8,7 @@ A collection of good and bad Ansible code examples.
 * [Use the copy-module or template-module instead of lineinfile-module](docs/use_copy_template_instead_of_lineinfile.md)
 * [Avoid unintended side effects when running playbooks](docs/avoid_sideeffects.md)
 * [Turn off gather_facts if not needed](docs/turn_off_gather_facts.md)
+* [Prefix your variables](docs/prefix_your_variables.md)
 
 ## Contributing
 
