@@ -13,5 +13,6 @@ jobs:
           python-version: 3.9
       - run: pip install mkdocs
       - run: pip install mkdocs-material
-      - run: cp -f README.md docs/index.md
+      - run: cp README.md docs/index.md
+      - run: sed -i 's/docs\///g' docs/index.md
       - run: mkdocs gh-deploy --force --clean --verbose
