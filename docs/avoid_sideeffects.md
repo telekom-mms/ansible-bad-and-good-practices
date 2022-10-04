@@ -41,7 +41,7 @@ Then you would need to call the playbook like this to only delete databases on t
 ansible-playbook playbook.yaml --extra-vars='{environments: [dev]}'
 ```
 
-But what would happen if you ran the playbook with the `extra-vars`? All environments would be deleted - probably not what you'd expect.
+But what would happen if you ran the playbook without the `extra-vars`? All environments would be deleted - probably not what you'd expect.
 
 ## Good
 
