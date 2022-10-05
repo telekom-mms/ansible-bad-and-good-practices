@@ -19,3 +19,5 @@ Make sure that:
 - you've commented the code why it is a good or bad practice
 - your code can be easily run, so please add a full playbook if possible
 - be open to discuss with your colleagues
+
+If you want to change, discuss or view the code - feel free to visit the repository: https://github.com/T-Systems-MMS/ansible-bad-and-good-practices
