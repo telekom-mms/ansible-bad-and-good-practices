@@ -39,6 +39,6 @@ By the way, Puppet and Chef are on the advantage here, having namespaces for the
 
 Since ansible-lint v6.16.1 a new linting rule has been added which says: "Variables names from within roles should use role_name_ as a prefix.".
 
-Possible rule set that could fail: var-naming[no-role-prefix]
+Possible error message: var-naming[no-role-prefix]
 
 For more information see the official ansible-lint documentation: https://ansible-lint.readthedocs.io/rules/var-naming/#var-naming
