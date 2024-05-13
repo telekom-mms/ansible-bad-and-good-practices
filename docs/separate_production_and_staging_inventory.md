@@ -13,7 +13,7 @@ Folder structure:
 ├── ansible.cfg
 ├── group_vars
 ├── host_vars
-├── hosts
+├── inventory_file
 ├── playbooks
 ├── roles
 ```
