@@ -42,11 +42,13 @@ Folder structure
 ```bash
 /path/to/your/ansible
 ├── ansible.cfg
-├── group_vars
-├── host_vars
 ├── inventory
-│   ├── live
-│   └── test
+└── live
+│   ├── group_vars
+│   └── host_vars
+└── test
+    ├── group_vars
+    └── host_vars
 ├── playbooks
 ├── roles
 ```
