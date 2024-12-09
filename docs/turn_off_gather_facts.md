@@ -34,3 +34,21 @@ The collection of these facts is a time-consuming process and in order to speed 
 ```
 
 Keep in mind that you need to enable `gather_facts` if you want to use host-variables or want to collect information about the remote host. A list about some of these Ansible facts can be found here: https://docs.ansible.com/ansible/latest/user_guide/playbooks_vars_facts.html#ansible-facts
+
+It is also possible to limit the gathered subsets by using the [`ansible.builtin.setup`](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/setup_module.html) module.
+
+## Example of limiting the gathered fact subsets
+
+```yaml
+---
+ - hosts: all
+   become: true
+   gather_facts: false
+   tasks:
+     - name: gather only distribution facts
+       ansible.builtin.setup:
+       gather_subset:
+         - '!all'
+         - '!min'
+         - distribution
+```
